@@ -1,4 +1,4 @@
-# SharpPolish
+# FST ForgePolish
 
 A specialized high-performance hard-surface smoothing and polishing toolset for Blender. 
 
@@ -8,7 +8,7 @@ Ideal for cleaning up retopologized meshes from ZBrush, removing surface irregul
 
 The addon supports **Blender 4.2 LTS through 5.1**.
 
-1. Download the latest `SharpPolish_v1.0.x.zip` from the [Releases](../../releases) page.
+1. Download the latest `FST_ForgePolish_v1.0.x.zip` from the [Releases](../../releases) page.
 2. Open Blender and go to **Edit > Preferences > Add-ons** (or **Extensions** in 4.2+).
 3. Click **Install...** (or the down arrow icon -> Install from Disk).
 4. Select the downloaded `.zip` file.
@@ -16,7 +16,7 @@ The addon supports **Blender 4.2 LTS through 5.1**.
 
 ## Where is it located in Blender?
 
-Once installed, the SharpPolish panel can be accessed in the **3D Viewport**. 
+Once installed, the FST ForgePolish panel can be accessed in the **3D Viewport**. 
 Open the Sidebar (press `N`) and navigate to the **Edit** tab. 
 
 *Note: The FaceSets utility tools will only become active when you are in **Edit Mode**.*
@@ -25,7 +25,7 @@ Open the Sidebar (press `N`) and navigate to the **Edit** tab.
 
 ## Workflow & Tools
 
-SharpPolish relies on identifying "inner" regions and "boundaries". You can easily define these regions using the built-in FaceSets tools.
+FST ForgePolish relies on identifying "inner" regions and "boundaries". You can easily define these regions using the built-in FaceSets tools.
 
 ### 1. FaceSets Workflow (Preparation)
 To get the best polishing results on complex hard-surface models, you can isolate flat planes and curved transitions using FaceSets.
@@ -53,7 +53,7 @@ When you click **Polish**, the tool modifies the mesh topology using one of two 
 
 ## Multilingual Support
 
-SharpPolish automatically adapts to your Blender interface language. Built-in languages include:
+FST ForgePolish automatically adapts to your Blender interface language. Built-in languages include:
 * English
 * Chinese (Simplified / Traditional)
 * Japanese
